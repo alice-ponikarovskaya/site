@@ -1,0 +1,303 @@
+#form_registration > li > input{
+	padding-left: 5px
+}
+#input-email-pass > li > input{
+	width: 250px;
+	height: 20px;
+	padding-left: 5px
+}
+#centerLayer {
+	border-radius: 10px;
+    position: absolute; /* Абсолютное позиционирование */
+    width: 500px; /* Ширина слоя в пикселах */
+    height: 650px; /* Высота слоя в пикселах */
+    left: 43%; /* Положение слоя от левого края */
+    top: 18%; /* Положение слоя от верхнего края */
+    margin-left: -150px; /* Отступ слева */
+    margin-top: -85px;	/* Отступ сверху */
+    background: #D8BFD8 ; /* Цвет фона */
+    border: solid 1px #D8BFD8; /* Параметры рамки вокруг */
+    padding: 10px; /* Поля вокруг текста */
+    overflow: auto; /* Добавление полосы прокрутки */ 
+   }
+   #blockLayerHead {
+	position: absolute;
+	margin-left: 108px;
+   }
+   #blockLayerText {
+	position: absolute;
+	margin-left: 70px;
+	margin-right: 70px;
+    margin-top: 150px;
+   }
+   #blockLayerBut {
+	position: absolute;
+	margin-left: 200px;
+	margin-right: 10px;
+    margin-top: 470px;
+   }
+   #blockLayerHref {
+	position: absolute;
+	margin-left:192px;
+	margin-right: 10px;
+    margin-top: 550px;
+   }
+   #centerLayer_enter {
+	border-radius: 10px;
+    position: absolute; /* Абсолютное позиционирование */
+    width: 400px; /* Ширина слоя в пикселах */
+    height: 550px; /* Высота слоя в пикселах */
+    left: 47%; /* Положение слоя от левого края */
+    top: 25%; /* Положение слоя от верхнего края */
+    margin-left: -150px; /* Отступ слева */
+    margin-top: -85px;	/* Отступ сверху */
+    background: #D8BFD8 url(images/dataprotection.png); /* Цвет фона */
+    border: solid 1px #D8BFD8; /* Параметры рамки вокруг */
+    padding: 10px; /* Поля вокруг текста */
+    overflow: auto; /* Добавление полосы прокрутки */ 
+   }
+   #blockLayerHead_enter {
+	position: absolute;
+	margin-left: 63px;
+   }
+   #blockLayerText_enter {
+	position: absolute;
+	margin-left: 73px;
+	margin-right: 70px;
+    margin-top: 210px;
+   }
+   #message-auth {
+	font: bold 13px sans-serif;
+	background-color: #FDE7E7;
+	color: red;
+	position: absolute;
+	margin-left: 95px;
+	margin-right: 10px;
+    margin-top: 160px;
+	display: none;
+   }
+   }
+   #blockLayerBut_enter {
+	position: absolute;
+	margin-left: 150px;
+	margin-right: 10px;
+    margin-top: 370px;
+   }
+   #blockLayerHref_enter {
+	position: absolute;
+	margin-left:157px;
+	margin-right: 10px;
+    margin-top: 450px;
+   }
+   #centerLayer_register {
+	border-radius: 10px;
+    position: absolute; /* Абсолютное позиционирование */
+    width: 450px; /* Ширина слоя в пикселах */
+    height: 600px; /* Высота слоя в пикселах */
+    left: 45%; /* Положение слоя от левого края */
+    top: 23%; /* Положение слоя от верхнего края */
+    margin-left: -150px; /* Отступ слева */
+    margin-top: -85px;	/* Отступ сверху */
+    background: #D8BFD8 url(images/dataprotection.png); /* Цвет фона */
+    border: solid 1px #D8BFD8; /* Параметры рамки вокруг */
+    padding: 10px; /* Поля вокруг текста */
+    overflow: auto; /* Добавление полосы прокрутки */ 
+   }
+   #blockLayerHead_register {
+	position: absolute;
+	margin-left: 80px;
+   }
+   #blockLayerText_register {
+	position: absolute;
+	margin-left: 110px;
+	margin-right: 110px;
+    margin-top: 170px;
+   }
+   #blockLayerBut_register {
+	position: absolute;
+	margin-left: 138px;
+	margin-right: 10px;
+    margin-top: 440px;
+   }
+   #blockLayerHref_register {
+	position: absolute;
+	margin-left:187px;
+	margin-right: 10px;
+    margin-top: 510px;
+   }
+   #container_account {
+    width: 1200px; /* Ширина макета */
+    margin: 0 auto; /* Выравниваем по центру */
+   }
+   #header_account {
+	border-radius: 10px 10px 0 0;
+    background: #D8BFD8; /* Цвет фона */
+    font-size: 25pt; /* Размер текста */
+    color: white; /* Цвет текста */
+    padding: 15px; /* Отступы вокруг текста */
+   }
+   #content_account {
+	margin-top: 0.5em; /* Отступ сверху */
+    margin-right: 140px; /* Отступ справа */
+    padding: 10px; /* Поля вокруг текста */
+    background: #fff; /* Цвет фона левой колонки */
+   }
+   #content p_account {
+	margin-top: 0.5em /* Отступ сверху */
+	color: #2F4F4F;
+    
+   }
+   #sidebar_account {
+    float: right; /* Обтекание по левому краю */
+    width: 120px; /* Ширина правой колонки */
+    padding: 10px; /* Отступы вокруг текста */
+    background: #2F4F4F; /* Цвет фона */
+   }
+   #sidebar p_account {
+    color: #FFF5EE;
+   }
+   #footer_account {
+	border-radius: 0 0 10px 10px;
+    background: #8fa09b; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    padding: 5px; /* Отступы вокруг текста */
+    margin-top: 15px; /* Отступ сверху */
+   }
+   #stores_account{
+	width: 1000px;	height: 90px;
+    border: 1px solid #D8BFD8;
+	border-radius: 10px;
+    padding: 10px;
+	margin-bottom: 20px
+   }
+   #stores_account_profile{
+	width: 1000px;	height: 42px;
+    border: 1px solid #D8BFD8;
+	border-radius: 10px;
+    padding: 10px;
+	margin-bottom: 20px
+   }
+   #storesnew_account{
+	width: 1000px;	height: 100px;
+    border: 1px solid #D8BFD8;
+	border-radius: 10px;
+    padding: 10px;
+	margin-bottom: 20px
+   }
+   #but_account {
+    margin-bottom: 20px;
+   }
+    #centerLayer_account {
+	border-radius: 10px;
+	position: absolute;
+	margin-left: 215px; /* Отступ слева */
+    margin-top: 50px;	/* Отступ сверху */
+	}
+	#input-email-pass span{
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+	margin-top: 5px;
+	position: absolute;
+	margin-left: -28px;
+    }
+	#message-reg{
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 10px;
+		display: none;
+	}
+	#message{
+	margin-top: 35px;
+	}
+	#auth{
+		margin-left: 10px;
+		display: none;
+	}
+	#user a{
+		text-decoration: none;
+		font: bold 13px;
+		color: #FFEFD5;
+	}
+	#user a:hover{
+		border-bottom:1px dashed white;
+		color: white;
+		cursor: pointer;
+	}
+	.message_err_auth{
+		position: absolute;
+		margin-top: -250px;
+		margin-left: -210px;
+		padding-right: 5px;
+		width: 200px;
+	    height: 35px;
+		font: bold 12px sans-serif;
+		color: black;
+		background-color: white;
+		border: 1px solid white;
+		border-radius: 5px;
+	}
+	.reg_message_good{
+		font: italic 18px Broadway;
+		color: #D8BFD8;
+		background-color: #FFF5EE;
+		border: 15px solid #FFF5EE;
+		border-radius: 10px;
+	}
+	.reg_message_error{
+		position: absolute;
+		margin-top: -35px;
+		margin-left: 10px;
+		padding-right: 5px;
+		width: 270px;
+	    height: 35px;
+		font: bold 12px sans-serif;
+		color: black;
+		background-color: white;
+		border: 1px solid white;
+		border-radius: 5px;
+	}
+	.error{
+		font: italic 14px sans-serif;
+		color: red;
+	    margin-left: 5px;
+	}
+	.auth:hover {
+    box-shadow: 0 0 5px rgba(0,0,0,0.3); /* Тень */
+    background: linear-gradient(to bottom, #FFF5EE, #FFF5EE); /* Градиент */
+    color: black;
+   }
+	.pass-show{
+    background: url(/images/open.png) no-repeat;  
+	width: 16px;
+	height: 16px;
+   }
+   .pass-hide{
+    background: url(/images/close.png) no-repeat;  
+	width: 16px;
+	height: 16px;
+   }
+   .c {
+    border: 1px solid #333; /* Рамка */
+    display: inline-block;
+    padding: 10px 30px; /* Поля */
+    text-decoration: none; /* Убираем подчёркивание */
+    color: #000; /* Цвет текста */
+  }
+   .c:hover {
+    box-shadow: 0 0 5px rgba(0,0,0,0.3); /* Тень */
+    background: linear-gradient(to bottom, #FFF5EE, #FFF5EE); /* Градиент */
+    color: black;
+   }
+   .c1 {
+    text-decoration: none;
+    color: #000; 
+  }
+   .c1:hover {
+	text-decoration: yes;
+    color: #FFF5EE;
+   }
+   .auth-loading{
+	   display: none;
+   }
+   
